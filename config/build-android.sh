@@ -12,10 +12,10 @@ repo sync -f
 source build/envsetup.sh
 
 if [ -z "$DEVICE" ]; then
-  brunch
+  $BRLUNCH
 else
   DEVICE_LC=$(echo $DEVICE | tr '[A-Z]' '[a-z]')
-  brunch $DEVICE
+  $BRLUNCH $DEVICE
 fi
 
 
