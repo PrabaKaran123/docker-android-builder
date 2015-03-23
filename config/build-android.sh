@@ -18,4 +18,5 @@ else
   $BRLUNCH $DEVICE
 fi
 
+$MAKE
 
