@@ -29,7 +29,7 @@ grep -q "/"$BUILD_NAME"_ccache" .gitignore || echo "/"$BUILD_NAME"_ccache" >> .g
 grep -q "$BUILD_NAME" .dockerignore  || echo "$BUILD_NAME" >> .dockerignore 
 grep -q $BUILD_NAME"_ccache" .dockerignore || echo $BUILD_NAME"_ccache" >> .dockerignore 
 if [ "$MY_DIR" != "$(pwd)" ]; then
-        cp -r ${MY_DIR}/config .
+        cp -r "${MY_DIR}/config" .
 fi
 
 # This is left here commented out, use it in case you have selinux
