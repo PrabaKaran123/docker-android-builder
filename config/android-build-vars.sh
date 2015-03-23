@@ -17,15 +17,13 @@
 # BRLUNCH="lunch"                                                      #
 # MAKE="mka bacon"                                                     #
 ######################################################################## 
-BUILD_NAME="Android"
-REPO=""
-BRANCH=""
-DEVICE=""       # Optional
-BRLUNCH="brunch" # select wether your build needs lunch or brunch command
-MAKE=""
 
-######################################################################## 
-######################################################################## 
+BUILD_NAME="Zombi-LP-5.1"
+REPO="git://github.com/zombi-x-lp/platform_manifest.git"
+BRANCH="lp5.1"
+DEVICE="zombi_tf700t-userdebug"
+BRLUNCH="lunch"
+MAKE="mka bacon"
 
 # If you require Oracle Java, change this to "true"
 USE_ORACLE_JAVA="false"
