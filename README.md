@@ -17,8 +17,9 @@ It will install the "repo" utility and any other build dependencies which are re
 
 1. Clone the repo
 ```
-git clone https://github.com/thrilleratplay/docker-android-builder.git
+git clone https://github.com/ikke-t/docker-android-builder
 cd docker-android-builder
+git checkout remotes/origin/zombi-lp5.1
 ```
 
 2. Update the build variables located in "config/android-build-vars.sh"
@@ -42,6 +43,7 @@ build-android
 * [CarbonRom](https://carbonrom.org)
 * [OmniRom](http://omnirom.org)
 * [Dirty Unicorns](http://dirtyunicorns.com/dusite)
+* [Zombi-Omnirom](http://forum.xda-developers.com/transformer-tf700/development/rom-t3006593)
 
 ---
 
@@ -59,5 +61,6 @@ build-android
 
 ### More information
 
+* [Discussion thread @ XDA developers](http://forum.xda-developers.com/transformer-tf700/development/easy-build-environment-docker-zombi-omni-t3062679)
 * [Discussion thread @ XDA developers](http://forum.xda-developers.com/showthread.php?t=2650345) - Started for [docker-cyanogenmod](https://github.com/stucki/docker-cyanogenmod)
 
