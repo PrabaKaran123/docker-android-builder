@@ -28,12 +28,12 @@
 # MAKE="mka bacon"
 ######################################################################## 
 
-BUILD_NAME="Zombi-LP-5.1"
-REPO="git://github.com/zombi-x-lp/platform_manifest.git"
-BRANCH="lp5.1"
-DEVICE="zombi_tf700t-userdebug"
-BRLUNCH="lunch"
-MAKE="mka bacon"
+BUILD_NAME="Android"
+REPO=""
+BRANCH=""
+DEVICE=""    # Optional
+BRLUNCH=""   # use either brunch or lunch here
+MAKE=""      # with luch, you may want to have e.g. 'mka' here
 
 # If you require Oracle Java, change this to "true"
 USE_ORACLE_JAVA="false"
