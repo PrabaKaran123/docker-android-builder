@@ -61,6 +61,6 @@ build-android
 
 ### More information
 
-* [Discussion thread @ XDA developers](http://forum.xda-developers.com/transformer-tf700/development/easy-build-environment-docker-zombi-omni-t3062679)
 * [Discussion thread @ XDA developers](http://forum.xda-developers.com/showthread.php?t=2650345) - Started for [docker-cyanogenmod](https://github.com/stucki/docker-cyanogenmod)
+* [Discussion thread @ XDA developers](http://forum.xda-developers.com/transformer-tf700/development/easy-build-environment-docker-zombi-omni-t3062679)
 
